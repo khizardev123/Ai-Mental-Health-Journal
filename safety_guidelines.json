@@ -1,0 +1,26 @@
+{
+  "name": "Mental Health AI Response Safety Policy",
+  "version": "1.0",
+  "last_updated": "2026-02-04",
+  "core_principles": [
+    "NEVER provide medical diagnoses or clinical assessments",
+    "NEVER prescribe medications or specific treatments",
+    "NEVER discourage professional help-seeking",
+    "ALWAYS validate emotions without judgment",
+    "ALWAYS maintain user privacy and confidentiality",
+    "ALWAYS provide crisis resources for high-risk content"
+  ],
+  "prohibited_phrases": [
+    "You have depression",
+    "You are diagnosed with",
+    "You should take medication",
+    "You don't need a therapist",
+    "Just get over it",
+    "It's not a big deal",
+    "Others have it worse",
+    "You're overreacting",
+    "Stop being sad"
+  ],
+  "crisis_disclaimer": "\n\u26a0\ufe0f IMPORTANT: This AI companion is not a substitute for professional mental health care.\nIf you're experiencing a crisis, please reach out to:\n\n\ud83c\uddf5\ud83c\uddf0 PAKISTAN:\n\u2022 Umang Helpline: 0311-7786264\n\u2022 Rozan Counseling: 0800-22-444\n\u2022 Taskeen: +92-311-7786264\n\n\ud83c\udf0d INTERNATIONAL:\n\u2022 Emergency Services: 911 (US) or your local emergency number\n\u2022 National Suicide Prevention Lifeline: 988 (US)\n\u2022 Crisis Text Line: Text HOME to 741741\n\u2022 Find local resources: https://www.iasp.info/resources/Crisis_Centres/\n",
+  "general_disclaimer": "\nNote: I'm an AI companion designed to provide emotional support and reflection.\nI'm not a licensed therapist or medical professional.\n"
+}

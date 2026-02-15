@@ -1,0 +1,30 @@
+{
+  "period": {
+    "start": "2026-01-28",
+    "end": "2026-02-03"
+  },
+  "total_entries": 16,
+  "emotion_counts": {
+    "fear": 4,
+    "surprise": 4,
+    "neutral": 2,
+    "anger": 2,
+    "joy": 2,
+    "sadness": 2
+  },
+  "emotion_percentages": {
+    "fear": 25.0,
+    "surprise": 25.0,
+    "neutral": 12.5,
+    "anger": 12.5,
+    "joy": 12.5,
+    "sadness": 12.5
+  },
+  "dominant_emotion": "fear",
+  "mood_score": -0.212,
+  "mood_label": "neutral",
+  "mood_methodology": "Valence values adapted from psychological emotion valence theory (positive vs negative affect scale) and normalized to -1 to +1 range for computational analysis.",
+  "volatility": 0.69,
+  "volatility_level": "high",
+  "trend": "declining"
+}

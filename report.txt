@@ -1,0 +1,38 @@
+# AI Mental Health Journal: Technical Project Report
+
+## Project Overview
+The AI Mental Health Journal is a production-ready web application designed to provide users with a safe, empathetic space for journaling while leveraging advanced NLP models to detect emotional states and potential mental health crises in real-time.
+
+## 1. System Architecture
+The application is built using a modern Python stack:
+- **Frontend:** Streamlit for a responsive, interactive UI.
+- **Backend:** PyTorch and Hugging Face Transformers for model inference.
+- **Data Visualization:** Matplotlib and Pandas for historical analytics.
+
+## 2. Model Logic and Loading
+### Efficient Resource Management
+To ensure a fast and responsive user experience, the system uses **Streamlit Caching (`@st.cache_resource`)**. This ensures that the heavy transformer models (700MB+) are loaded into memory only once during the application startup, rather than on every user interaction.
+
+### Dual-Pipeline Detection
+The app executes two parallel NLP pipelines for every entry:
+1. **Emotion Classification:** Categorizes text into Joy, Sadness, Anger, Fear, Surprise, or Neutral.
+2. **Crisis Detection:** A specialized binary classifier trained to identify high-risk language indicative of distress or crisis.
+
+## 3. Core Logic: The "Safety Override"
+The primary design philosophy of this application is **Safety First**. 
+- Even if the emotion model detects "Sadness," the system first checks the **Crisis Model**. 
+- If `is_crisis` is True, the application triggers a **Logic Override**. 
+- This bypasses standard emotional feedback and instead delivers a prioritized **Crisis Response**, which includes validated supportive text and a shortlist of vetted mental health helplines (Umang, Rozan, Taskeen, etc.).
+
+## 4. Dynamic Feedback System
+Rather than hardcoding AI replies, the application uses a **Prompt Template System (`prompt_templates.json`)**. 
+- This allows for easy updates to the AI's "personality" without changing the core code.
+- Each emotion has a pool of empathetic responses, from which the system randomly selects to keep the interaction feeling natural and non-repetitive.
+
+## 5. Session-Based Analytics
+The application maintains a **Mood Trend Analysis** engine:
+- It tracks the `crisis_probability` over the session to detect if a user's distress levels are increasing or improving.
+- It uses `st.session_state` to store user history, enabling real-time dashboard updates without the overhead of a database for the demonstration phase.
+
+## 6. Conclusion
+By combining rigorous NLP detection with a safety-first logic override and dynamic empathetic feedback, this journal serves as more than just a diary—it acts as an emotionally intelligent companion that prioritizes user safety and mental well-being.

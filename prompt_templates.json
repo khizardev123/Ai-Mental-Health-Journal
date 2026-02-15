@@ -1,0 +1,80 @@
+{
+  "joy": {
+    "tone": "warm, celebratory, encouraging",
+    "responses": [
+      "That's wonderful to hear! \ud83c\udf1f It's so important to celebrate these positive moments. What made today especially great for you?",
+      "I'm so happy you're feeling this way! Joy is precious - take a moment to really soak it in. Would you like to reflect on what contributed to this feeling?",
+      "What a beautiful moment! \ud83d\ude0a Positive experiences like this are worth remembering. Consider saving this entry to look back on during harder days.",
+      "Your happiness shines through your words! These moments of joy are the building blocks of wellbeing. What are you most grateful for right now?"
+    ],
+    "follow_up": "Would you like to explore what specifically brought you this joy?"
+  },
+  "sadness": {
+    "tone": "warm, comforting, validating",
+    "responses": [
+      "I hear you, and I want you to know that it's okay to feel sad. \ud83d\udc99 Your feelings are valid. Would you like to share more about what's weighing on your heart?",
+      "Thank you for trusting me with how you're feeling. Sadness is a natural part of life, and you don't have to face it alone. I'm here to listen.",
+      "It sounds like you're going through a difficult time. Remember, it's okay to not be okay sometimes. What do you need most right now?",
+      "I'm sorry you're feeling this way. \ud83d\udc99 Sometimes just acknowledging our sadness can be the first step toward healing. Take your time - there's no rush."
+    ],
+    "follow_up": "Is there something specific that triggered these feelings, or would you prefer to just sit with them?"
+  },
+  "anger": {
+    "tone": "calm, grounding, understanding",
+    "responses": [
+      "I can sense the frustration in your words. It's completely understandable to feel angry sometimes. Would you like to talk through what happened?",
+      "Your anger is valid. \ud83c\udf0a Sometimes we need to acknowledge these strong feelings before we can process them. Take a deep breath with me.",
+      "It sounds like something really upset you. Anger often signals that something important to us has been crossed. What boundary was pushed?",
+      "I hear your frustration. Before we explore this further, let's take a moment - try taking three slow, deep breaths. I'm here when you're ready."
+    ],
+    "follow_up": "When you're ready, would you like to explore what's underneath this anger?"
+  },
+  "fear": {
+    "tone": "reassuring, safe, supportive",
+    "responses": [
+      "It takes courage to acknowledge fear. \ud83e\udd0d You're safe here, and your concerns are valid. Would you like to talk about what's worrying you?",
+      "I'm here with you. Fear can feel overwhelming, but you don't have to face it alone. Let's take this one step at a time together.",
+      "Thank you for sharing something so vulnerable. \ud83e\udd0d Fear often tries to protect us. What do you think it's trying to tell you?",
+      "I understand feeling scared can be really hard. Remember, you've gotten through difficult moments before. What has helped you cope in the past?"
+    ],
+    "follow_up": "Would it help to break down what you're afraid of into smaller pieces?"
+  },
+  "surprise": {
+    "tone": "curious, engaged, supportive",
+    "responses": [
+      "It sounds like something unexpected happened! \ud83d\udcab Life can certainly catch us off guard. How are you processing this surprise?",
+      "Unexpected moments can be quite a lot to take in. Whether this was a good or challenging surprise, I'm here to help you work through it.",
+      "That sounds like quite a moment! \ud83d\udcab Sometimes surprises need time to sink in. How are you feeling about this now?",
+      "Life is full of unexpected turns! Would you like to explore how this surprise is affecting you?"
+    ],
+    "follow_up": "How is this surprise making you feel overall - excited, anxious, or somewhere in between?"
+  },
+  "neutral": {
+    "tone": "friendly, open, inviting",
+    "responses": [
+      "Thank you for checking in today. \ud83d\udcdd Even ordinary days are worth documenting. Is there anything on your mind you'd like to explore?",
+      "It's good to hear from you. Sometimes the quiet, normal days are important too. How would you describe your overall state right now?",
+      "Thanks for journaling today. \ud83d\udcdd Would you like to reflect on anything specific, or just enjoy this moment of calm?",
+      "A peaceful day can be a gift. Is there anything beneath the surface you'd like to talk about, or are you content with how things are?"
+    ],
+    "follow_up": "Is there anything you'd like to reflect on or set as an intention?"
+  },
+  "high_distress": {
+    "tone": "gentle, urgent care, non-judgmental",
+    "responses": [
+      "I'm really glad you're sharing this with me. \ud83d\udc99 What you're feeling sounds very heavy, and I want you to know that support is available.",
+      "Thank you for trusting me with something so difficult. \ud83d\udc99 Your feelings matter, and so do you. Please know that reaching out for support is a sign of strength.",
+      "I hear you, and I'm concerned about how you're feeling. You deserve support right now. Would you consider reaching out to someone who can help?",
+      "What you're going through sounds really painful. \ud83d\udc99 I'm here for you, and I want to make sure you're safe. Let's talk about some resources that might help."
+    ],
+    "follow_up": "Would you like me to share some supportive resources?",
+    "resources": [
+      "\ud83d\udcde Pakistan - Umang Helpline: 0311-7786264",
+      "\ud83d\udcde Pakistan - Rozan Counseling: 0800-22-444",
+      "\ud83d\udcde Pakistan - Taskeen: +92-311-7786264",
+      "\ud83d\udcde USA - National Suicide Prevention Lifeline: 988",
+      "\ud83d\udcde Crisis Text Line: Text HOME to 741741",
+      "\ud83d\udcde International Resources: https://www.iasp.info/resources/Crisis_Centres/"
+    ]
+  }
+}

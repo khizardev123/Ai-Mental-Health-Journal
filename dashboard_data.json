@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-02-04T10:32:31.072405",
+  "weekly_summary": {
+    "period": {
+      "start": "2026-01-28",
+      "end": "2026-02-03"
+    },
+    "total_entries": 16,
+    "emotion_counts": {
+      "fear": 4,
+      "surprise": 4,
+      "neutral": 2,
+      "anger": 2,
+      "joy": 2,
+      "sadness": 2
+    },
+    "emotion_percentages": {
+      "fear": 25.0,
+      "surprise": 25.0,
+      "neutral": 12.5,
+      "anger": 12.5,
+      "joy": 12.5,
+      "sadness": 12.5
+    },
+    "dominant_emotion": "fear",
+    "mood_score": -0.212,
+    "mood_label": "neutral",
+    "mood_methodology": "Valence values adapted from psychological emotion valence theory (positive vs negative affect scale)",
+    "volatility": 0.69,
+    "volatility_level": "high",
+    "trend": "declining"
+  },
+  "insights": [
+    {
+      "type": "dominant_emotion",
+      "title": "Your Primary Emotion",
+      "message": "This week, you've felt fear most often (25.0% of entries).",
+      "emoji": "\ud83d\ude30"
+    },
+    {
+      "type": "mood_trend",
+      "title": "Mood Trend",
+      "message": "Things have been harder lately. Remember, support is available. \ud83d\udc99",
+      "trend": "declining"
+    },
+    {
+      "type": "emotional_stability",
+      "title": "Emotional Stability",
+      "message": "You've had a wide range of emotions. Consider grounding exercises. \ud83c\udf0a",
+      "level": "high"
+    }
+  ],
+  "emotion_labels": [
+    "surprise",
+    "joy",
+    "neutral",
+    "sadness",
+    "anger",
+    "fear"
+  ],
+  "mood_scoring_methodology": "Valence values adapted from psychological emotion valence theory (positive vs negative affect scale) and normalized to -1 to +1 range for computational analysis.",
+  "chart_data": {
+    "emotion_distribution": {
+      "fear": 4,
+      "surprise": 4,
+      "neutral": 2,
+      "anger": 2,
+      "joy": 2,
+      "sadness": 2
+    },
+    "mood_score": -0.212,
+    "trend": "declining"
+  }
+}

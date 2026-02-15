@@ -1,0 +1,20 @@
+[
+  {
+    "type": "dominant_emotion",
+    "title": "Your Primary Emotion",
+    "message": "This week, you've felt fear most often (25.0% of entries).",
+    "emoji": "\ud83d\ude30"
+  },
+  {
+    "type": "mood_trend",
+    "title": "Mood Trend",
+    "message": "Things have been harder lately. Remember, support is available. \ud83d\udc99",
+    "trend": "declining"
+  },
+  {
+    "type": "emotional_stability",
+    "title": "Emotional Stability",
+    "message": "You've had a wide range of emotions. Consider grounding exercises. \ud83c\udf0a",
+    "level": "high"
+  }
+]
