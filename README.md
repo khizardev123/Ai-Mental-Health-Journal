@@ -56,3 +56,5 @@ python -m streamlit run "d:/Internship 3 month_unpaid/Text Emotion Classificatio
 
 ## 🛡️ Operational Disclaimer
 AURA is an Artificial Intelligence, not a human doctor. It provides support based on patterns and data. **In a medical emergency, always contact biological emergency services.**
+
+Note: Trained model weights are not included in this repository due to GitHub file size limitations.
